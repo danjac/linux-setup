@@ -1,0 +1,35 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#TabsToolbar { 
+    height: 28px !important; 
+    /*font-size: 90% !important; */
+    margin-top: -1px !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+    /*font-weight: bold !important; */
+    color: rgba(255,255,255,1) !important;
+}
+
+
+/* Change fonts in Awesomebar drop down */
+.ac-comment {
+  font-size: 90% !important;
+  color: #ffffff !important;
+}
+.ac-comment[selected="true"] {
+  color: #ffffff !important;
+}
+.ac-url-text {
+  font-size: 90% !important;
+  color: #eeeeee !important;
+}
+.ac-url-text[selected="true"] {
+  color: #eeeeee !important;
+}
+
+#content browser {
+ margin-right: -14px !important;
+ overflow-y: hidden !important;
+ overflow-x: hidden !important;
+}
