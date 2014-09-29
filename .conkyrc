@@ -11,8 +11,8 @@ imlib_cache_size 10
 #gap_x 1050
 #gap_y 50
 
-alignment top_right
-#alignment top_left
+#alignment top_right
+alignment top_left
 
 gap_x 20
 gap_y 50

@@ -6,10 +6,11 @@ set ds=duckduckgo
 "set tabnumbers=true
 "set gui=notabs
 set gui=tabs
-set scrollbars=noscrollbars
+"set scrollbars=noscrollbars
 "colorscheme vimPgray
 "colorscheme darkness2
 "colorscheme seaweed
+set toolbars=addons
 
 " Hints!
 hi Hint color: white; background-color: #800; border-color: ButtonShadow; font-family: Droid Sans Mono; font-size: 12px; border-width: 0px; border-style: solid; padding 0 1px; font-weight:bold;
@@ -18,29 +19,21 @@ hi HintActive color: black; background: #480;
 hi HintElem color: black; background-color: #aaa;
 hi HintImage opacity: .5;
 
-hi StatusLine color: #ddc; background: #333; font-family: Droid Sans Mono; font-size: 14px; margin-top: 3px;
 
 
-hi CmdLine color: #000; background: #ccc; font-family: Droid Sans Mono; font-size: 14px; font-weight: bold;
 
-hi Search color: #333; background-color: #cc0; font-size: inherit; padding: 0; padding: 0;
+hi URL color: #555; text-decoration: none; padding: 0 2px; font-family: Droid Sans Mono; 
+hi Normal color: #000; background: #fff; overflow-y: hidden; overflow-x: hidden !important; font-family: Droid Sans Mono; 
+hi CmdLine color: #000; background: #ccc; font-family: Droid Sans Mono; font-size: 12px; font-weight: bold;
+hi StatusLine color: #000; background: #fff; font-family: Droid Sans Mono; font-size: 12px; font-weight: bold; padding: 2px;
 
-hi Normal color: #000; background: #fff; overflow-y: hidden; overflow-x: hidden !important;
-
-
-hi URL color: #555; text-decoration: none; padding: 0 2px;
 " Make Firefox run faster by using JIT
+
 set! javascript.options.jit.chrome=true
 
 " Autocomplete using Firefox Awesomebar subsystem
 set complete=l
  
-" Show completions as you type? '' waits for tab, 'auto' shows them immediately
-set wildoptions=''
- 
-" Select the longest autocomplete match
-set wildoption=auto
-
 set maxitems=100
 set editor=gvim
 
